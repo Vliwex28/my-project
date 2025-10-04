@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="#home">Головна</a></li>
+        <li><a href="#about">Про мене</a></li>
+        <li><a href="#projects">Проєкти</a></li>
+        <li><a href="#contact">Контакти</a></li>
+      </ul>
+    </nav>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Ваше ім’я" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <textarea id="message" placeholder="Повідомлення" required></textarea>
+      <button type="submit">Надіслати</button>
+    </form>
+    <div id="formMessage"></div>
+    <div class="carousel">
+      <img src="img1.jpg" class="slide active" />
+      <img src="img2.jpg" class="slide" />
+      <img src="img3.jpg" class="slide" />
+      <button id="prev">←</button>
+      <button id="next">→</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
